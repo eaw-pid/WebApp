@@ -22,8 +22,6 @@ import VoterStore from '../../stores/VoterStore';
 import LazyImage from '../../common/components/LazyImage';
 import { avatarGeneric } from '../../utils/applicationUtils';
 import speakerDisplayNameToInitials from '../../common/utils/speakerDisplayNameToInitials';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-
 
 const STARTING_NUMBER_OF_IMAGES_TO_DISPLAY = 10;
 const STARTING_NUMBER_OF_NAMES_TO_DISPLAY = 2;

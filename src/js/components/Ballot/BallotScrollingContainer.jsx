@@ -115,8 +115,6 @@ class BallotScrollingContainer extends Component {
         }
     }
 
-//   this.onClickShowOrganizationModalWithBallotItemInfoAndPositions(oneCandidate.we_vote_id)
-
   render () {
     const { oneCandidate, externalUniqueId, isFirstBallotItem, candidateCount, limitNumberOfCandidatesShownToThisNumber } = this.props;
     const candidatePartyText = oneCandidate.party && oneCandidate.party.length ? `${oneCandidate.party}` : '';
@@ -145,7 +143,6 @@ class BallotScrollingContainer extends Component {
                 <CandidateTopRow>
                   <Candidate
                     id={`officeItemCompressedCandidateImageAndName-${oneCandidate.we_vote_id}-${externalUniqueId}`}
-//                     onClick={(e) => this.handleContainerClick(e, oneCandidate.we_vote_id)}
                   >
                     {/* Candidate Image */}
                     <CandidateImageAndMatchWrapper>
